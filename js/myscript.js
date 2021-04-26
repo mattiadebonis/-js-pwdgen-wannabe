@@ -1,5 +1,5 @@
-var nomeUtente = prompt()
-var cognomeUtente = prompt()
-var colorePreferitoUtente = prompt()
+var nomeUtente = prompt("Inserisci il tuo nome")
+var cognomeUtente = prompt("Inserisci il tuo cognome")
+var colorePreferitoUtente = prompt("Inserisci il tuo colore preferito")
 
-var passwordUtente = document.getElementById('password').innerHTML = nomeUtente + cognomeUtente + colorePreferitoUtente
+var passwordUtente = document.getElementById('password').innerHTML = nomeUtente + cognomeUtente + colorePreferitoUtente + "21"
